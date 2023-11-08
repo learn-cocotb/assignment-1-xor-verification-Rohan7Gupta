@@ -3,7 +3,7 @@ module xor_test_wave(
 	input wire b,
 	output wire y
 );
-xor uut(
+dut uut(
 	.a(a),
 	.b(b),
 	.y(y)
